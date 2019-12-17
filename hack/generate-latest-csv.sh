@@ -10,13 +10,13 @@ CSV_CHECKSUM="tools/csv-checksum/csv-checksum"
 export CSV_CHECKSUM_OUTFILE="hack/latest-csv-checksum.md5"
 
 # Current DEV version of the CSV
-export CSV_VERSION=0.0.2
+export CSV_VERSION=4.3.0
 export REPLACES_CSV_VERSION=${REPLACES_CSV_VERSION:-"0.0.1"}
 
 # Current dependency images our DEV CSV are pinned to
 export ROOK_IMAGE=${ROOK_IMAGE:-"rook/ceph:v1.1.4-27.gf20c056"}
-export NOOBAA_IMAGE=${NOOBAA_IMAGE:-"noobaa/noobaa-operator:2.0.8"}
-export NOOBAA_CORE_IMAGE=${NOOBAA_CORE_IMAGE:-"noobaa/noobaa-core:5.2.10"}
+export NOOBAA_IMAGE=${NOOBAA_IMAGE:-"noobaa/noobaa-operator:2.0.9"}
+export NOOBAA_CORE_IMAGE=${NOOBAA_CORE_IMAGE:-"noobaa/noobaa-core:5.2.11"}
 export NOOBAA_DB_IMAGE=${NOOBAA_DB_IMAGE:-"centos/mongodb-36-centos7"}
 export CEPH_IMAGE=${CEPH_IMAGE:-"ceph/ceph:v14.2"}
 export OCS_IMAGE=${OCS_IMAGE:-"quay.io/ocs-dev/ocs-operator:latest"}
